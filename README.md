@@ -3,8 +3,9 @@
 A gem to convert a binary tree to array and vice versa.
 
 ## Install
-
-`gem install binary_trees`
+```
+gem install binary_trees
+```
 
 ## Usage
 
