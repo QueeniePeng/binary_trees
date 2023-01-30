@@ -15,7 +15,10 @@ tree = Tree.new(root)
 ```
 
 ### Convert a tree to array
-`tree.to_array`
-
+```
+tree.to_array
+```
 ### Sum tree value
-`tree.sum`
+```
+tree.sum
+```
