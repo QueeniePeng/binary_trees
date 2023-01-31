@@ -31,12 +31,12 @@ class Tree
     root.val + sum(root.left) + sum(root.right)
   end
 
-  def to_array(root = @root, arr = [], idx = 0)
+  def to_a(root = @root, arr = [], idx = 0)
     return [] if root.nil?
 
     arr[idx] = root.val
-    to_array(root.left, arr, idx * 2 + 1) if root.left
-    to_array(root.right, arr, idx * 2 + 2) if root.right
+    to_a(root.left, arr, idx * 2 + 1) if root.left
+    to_a(root.right, arr, idx * 2 + 2) if root.right
     arr
   end
 end
