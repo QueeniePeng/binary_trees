@@ -17,8 +17,8 @@ tree = Tree.new(root)
 
 #### Access root value
 ```
-root.val # Output 1
-root.left.right.val # Output 5
+root.val # == 1
+root.left.right.val # == 5
 ```
 
 #### Sum tree value
