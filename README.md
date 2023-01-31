@@ -15,11 +15,18 @@ root = [1, 2, 3, 4, 5, 6].to_tree
 tree = Tree.new(root)
 ```
 
-#### Convert a tree to array
+#### Access root value
 ```
-tree.to_a
+root.val # Output 1
+root.left.right.val # Output 5
 ```
+
 #### Sum tree value
 ```
 tree.sum
+```
+
+#### Convert a tree to array
+```
+tree.to_a
 ```
