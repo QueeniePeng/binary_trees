@@ -9,9 +9,9 @@ gem install binary_trees
 
 ## Usage
 
-#### Convert an array to TreeNode and Tree
+#### Convert an array to TreeNode(root) and Tree
 ```
-root = [1, 2, 3, 4, 5, 6].to_tree
+root = [1, 2, 3, 4, 5, 6].to_root
 tree = Tree.new(root)
 ```
 
@@ -23,10 +23,15 @@ root.left.right.val # == 5
 
 #### Sum tree value
 ```
-tree.sum
+tree.sum # == 11
 ```
 
 #### Convert a tree to array
 ```
 tree.to_a
+```
+
+#### Invert TreeNodes (left -> right && right -> left)
+```
+tree.invert # return root [1, 3, 2, nil, 6, 5, 4]
 ```
